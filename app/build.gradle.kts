@@ -59,6 +59,12 @@ dependencies {
     // Coil para carga de imágenes remotas en Compose
     implementation(libs.coil)
     
+    // ViewModel para Compose
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    
+    // LiveData runtime para Compose (observeAsState)
+    implementation(libs.androidx.compose.runtime.livedata)
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
